@@ -50,8 +50,8 @@
                 &kp LSHIFT      &kp A         &kp S         &kp D         &kp F         &kp G         &kp H         &kp J         &kp K         &kp L         &kp SEMI      &kp COLON
                 &kp LCTRL       &kp Z         &kp X         &kp C         &kp V         &kp B         &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH      &kp MINUS
 
-                                                &kp N1   &kp N2   &kp N3   &kp N4   &kp N5
-                                                         &kp N6   &kp N7   &tog 3
+                                              &kp LALT      &kp SPACE     &mo 1         &mo 2         &kp ENTER
+                                                            &mkp MB1      &mkp MB2      &mo 3
             >;
             sensor-bindings = <&scroll_vertical_encoder>, <&scroll_horizontal_encoder>;
         };
@@ -63,7 +63,7 @@
                 &kp LCTRL       &kp LC(Z)     &none         &kp LC(Z)     &kp LC(A)     &kp BACKSPACE &kp LC(N)     &kp LC(V)     &kp COMMA     &kp DOT       &kp FSLH      &none
 
                                               &kp LALT      &kp SPACE     &trans        &mo 2         &kp ENTER
-                                                            &mkp MB1      &mkp MB2      &tog 3
+                                                            &mkp MB1      &mkp MB2      &mo 3
             >;
             sensor-bindings = <&scroll_vertical_encoder>, <&scroll_horizontal_encoder>;
         };
@@ -75,7 +75,7 @@
                 &kp LCTRL       &kp LGUI      &none         &none         &none         &kp DOT       &kp DOT       &kp FSLH      &none         &none         &none         &kp END
 
                                               &kp LALT      &kp SPACE     &mo 1         &trans        &kp ENTER
-                                                            &mkp MB1      &mkp MB2      &tog 3
+                                                            &mkp MB1      &mkp MB2      &mo 3
             >;
             sensor-bindings = <&scroll_vertical_encoder>, <&scroll_horizontal_encoder>;
         };
@@ -87,7 +87,7 @@
                 &kp LCTRL       &kp LGUI      &none         &none         &none         &kp HOME      &kp END       &kp LEFT      &kp DOWN      &kp RIGHT     &none         &kp C_VOL_DN
 
                                               &kp LALT      &kp SPACE     &mo 1         &mo 2         &kp ENTER
-                                                            &mkp MB1      &mkp MB2      &tog 3
+                                                            &mkp MB1      &mkp MB2      &trans
             >;
             sensor-bindings = <&scroll_vertical_encoder>, <&scroll_horizontal_encoder>;
         };
